@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "job portal project",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js"
@@ -10,6 +11,8 @@
   "author": "Kartikay Sinha",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
     "express": "^4.21.0",
     "nodemon": "^3.1.7"
   }
