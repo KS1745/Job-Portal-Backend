@@ -1,0 +1,16 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "description": "job portal project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Kartikay Sinha",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nodemon": "^3.1.7"
+  }
+}
